@@ -4,23 +4,26 @@ KAFKA Quick Setup Steps:
 STEP 1: DOWNLOAD AND INSTALL KAFKA
 >> https://dlcdn.apache.org/kafka/3.2.0/...
 
-STEP 2: START THE KAFKA ENVIRONMENT
+STEP 2: Open cmp prompt:
+>> cd kafka <-- Just before the bin 
+
+STEP 3: START THE KAFKA ENVIRONMENT
 Start the ZooKeeper service
 >> .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
 
 Start the Kafka broker service
 >> .\bin\windows\kafka-server-start.bat .\config\server.properties
 
-STEP 3: CREATE A TOPIC TO STORE YOUR EVENTS
+STEP 4: CREATE A TOPIC TO STORE YOUR EVENTS
 >> .\bin\windows\kafka-topics.bat --create --topic topic_demo_1 --bootstrap-server localhost:9092
 
-STEP 4: WRITE SOME EVENTS INTO THE TOPIC
+STEP 5: WRITE SOME EVENTS INTO THE TOPIC
 >> .\bin\windows\kafka-console-producer.bat --topic topic_demo_1 --bootstrap-server localhost:9092
 > hello world
 > topic demo
 > Hey, there
 
-STEP 5:  READ THE EVENTS
+STEP 6:  READ THE EVENTS
 >> .\bin\windows\kafka-console-consumer.bat --topic topic_demo_1 --from-beginning --bootstrap-server localhost:9092
 > hello world
 > topic demo
