@@ -1,5 +1,5 @@
 KAFKA Quick Setup Steps:
-=======================
+========================
 
 STEP 1: DOWNLOAD AND INSTALL KAFKA
 >> https://dlcdn.apache.org/kafka/3.2.0/...
@@ -24,4 +24,7 @@ STEP 5:  READ THE EVENTS
 >> .\bin\windows\kafka-console-consumer.bat --topic topic_demo_1 --from-beginning --bootstrap-server localhost:9092
 > hello world
 > topic demo
+<<<<<<< HEAD
 > Hey, there
+=======
+>>>>>>> 0cc240bf52d8aadf86669f58f922c521d7e8b1bd
