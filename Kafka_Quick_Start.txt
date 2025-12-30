@@ -1,5 +1,5 @@
 KAFKA Quick Setup Steps:
-=======================
+========================
 
 STEP 1: DOWNLOAD AND INSTALL KAFKA
 >> https://dlcdn.apache.org/kafka/3.2.0/...
