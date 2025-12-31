@@ -11,4 +11,6 @@ public class EnduserConsumerAppApplication {
 		System.err.println("EnduserConsumerAppApplication Running on Port No 8181 ...");
 	}
 
+	// Dependencies: spring-boot-starter-web, spring-kafka, spring-boot-devtools
+
 }
