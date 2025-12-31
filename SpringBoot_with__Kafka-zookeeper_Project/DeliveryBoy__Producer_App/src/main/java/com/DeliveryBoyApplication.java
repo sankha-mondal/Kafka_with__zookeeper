@@ -22,4 +22,6 @@ public class DeliveryBoyApplication {
 	>> .\bin\windows\kafka-console-consumer.bat --topic location-update-topic --from-beginning --bootstrap-server localhost:9092
 	*/
 
+	// Dependencies: spring-boot-starter-web, spring-kafka, spring-boot-devtools
+
 }
