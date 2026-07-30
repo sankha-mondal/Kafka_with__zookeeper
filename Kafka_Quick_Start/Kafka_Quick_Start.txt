@@ -1,6 +1,8 @@
 KAFKA Quick Setup Steps:
 ========================
 
+YouTube: https://youtu.be/ei6fK9StzMM?si=terXivTRznQSdGVc [Durgesh]
+
 STEP 1: DOWNLOAD AND INSTALL KAFKA
 >> https://dlcdn.apache.org/kafka/3.2.0/...
 
